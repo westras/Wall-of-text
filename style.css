@@ -8,6 +8,16 @@
   letter-spacing: 1px;
   border-radius: 1rem;
 }
+.firsttext{
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  padding: 1rem;
+  background: #0001;
+  border-radius:1rem;
+  box-shadow:1px 1px 5px black;
+}
+
 .main-content {
   flex: 1;
   max-width: 800px;
@@ -49,7 +59,7 @@ h2 {
  text-align:center;
   background: #0004
 }
-li {
+.listdiv{
   margin-bottom: 0.5rem;
   line-height: 1.5;
   justify-content:center;

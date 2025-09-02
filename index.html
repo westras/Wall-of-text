@@ -9,13 +9,13 @@
 <body>
     <div class="div">
             <h2 class = header>Top ten mistakes of web design</h2>
-            <p>Since my first attempt in 1996, I have compiled many top-10 lists of the biggest
+            <p id="firsttext">Since my first attempt in 1996, I have compiled many top-10 lists of the biggest
             mistakes in Web design. See links to all these lists at the bottom of
             this article. <br>This article presents the highlights: the very worst mistakes of
             Web design. (Updated 2011.)</p>
     <ol>
-        <li>
-            <h2>Bad Search</h2>
+        <div class="listdiv">
+            <h2>1. Bad Search</h2>
             <p>Overly literal search engines reduce usability in that they're unable to handle typos, plurals, hyphens, and other variants of the query terms. Such search engines
                 are 🌍<a href="https://www.nngroup.com/articles/usability-for-senior-citizens/">particularly difficult for elderly users</a>, but they hurt everybody.<br>A related problem is when search engines prioritize results purely on the basis
                 of how many query terms they contain, rather than on each document's
@@ -25,9 +25,9 @@
                 sometimes help, 🌍<a
                 href="https://www.nngroup.com/articles/search-visible-and-simple/">simple search usually works best</a>, and search should be presented as a
                 simple box, since that's what users are looking for.</p>
-        </li>
-        <li>
-            <h2>PDF Files for Online Reading</h2>
+        </div>
+        <div class="listdiv">
+            <h2>2. PDF Files for Online Reading</h2>
                 <p>Users hate coming across a PDF file while browsing, because it breaks their flow.<br>
                 Even simple things like printing or saving documents are difficult because
                 standard browser commands don't work. Layouts are often optimized for a sheet
@@ -37,9 +37,9 @@
                 that needs to be browsed or read on the screen into real web pages.
                 &gt; Detailed
                 discussion of why 🌍<a href="https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/">PDF is bad for online reading</a></br></p>
-        </li>
-        <li>
-            <h2>Not Changing the Color of Visited Links</h2>
+        </div>
+        <div class="listdiv">
+            <h2>3. Not Changing the Color of Visited Links</h2>
                 <p>A good grasp of past navigation helps you understand your current location, since
                 it's the culmination of your journey. Knowing your past and present locations
                 in turn makes it easier to decide where to go next. <br>Links are a key factor in
@@ -54,9 +54,9 @@
                 the same pages repeatedly.<br>
                 🌍<a href="https://www.nngroup.com/articles/change-the-color-of-visited-links/">Usability implications of changing link colors </a><br>
                 🌍<a href="http://www.nngroup.com/articles/guidelines-for-visualizing-links/">Guidelines for showing links</a></p>
-        </li>
-        <li>
-            <h2>Non-Scannable Text</h2>
+        </div>
+        <div class="listdiv">
+            <h2>4. Non-Scannable Text</h2>
             <p>A wall of text is deadly for an interactive experience. Intimidating. Boring.
             Painful to read.🌍<a href="https://www.nngroup.com/topic/writing-web/">Write for online</a>, not print. To draw users into the text and support scannability, use well-documented tricks:
         <div class="ul">
@@ -68,20 +68,20 @@
                     <li>the inverted pyramid</li>
                     <li>a simple writing style, and de-fluffed language devoid of marketese.</li>
                 </ul>
-            </div>
+        </div>
             🌍 <a href="http://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/">Eyetracking of reading patterns</a></p>
-        </li>
-        <li>
-            <h2>Fixed Font Size</h2>
+        </div>
+        <div class="listdiv">
+            <h2>5. Fixed Font Size</h2>
                 <p>CSS style sheets unfortunately give websites the power to disable a Web browser's
                 &quot;change font size&quot; button and specify a fixed font size. About 95% of
                 the time, this fixed size is <i>tiny </i>, reducing readability
                 significantly for most people over the age of 40. Respect
                 the user's preferences and let them 
                 🌍 <a href="https://www.nngroup.com/articles/let-users-control-font-size/">resize text</a> as needed. Also, specify font sizes in relative terms — not as an absolute number of pixels.</p>
-        </li>
-        <li>
-            <h2>Page Titles With Low Search Engine Visibility</h2>
+        </div>
+        <div class="listdiv">
+            <h2>6. Page Titles With Low Search Engine Visibility</h2>
                 <p>Search is the most important way users discover websites. Search is also one of the
                 most important ways users find their way around individual websites. The humble
                 page title is your main tool to attract new visitors from search listings and
@@ -104,9 +104,9 @@
                 multi-windowing users.
                 🌍<a href="https://www.nngroup.com/articles/tagline-blues-whats-the-site-about/">Taglines on homepages</a> are a related subject: they
                 also need to be short and quickly communicate the purpose of the site.</p>
-        </li>
-        <li>
-            <h2>Anything That Looks Like an Advertisement</h2>
+        </div>
+        <div class="listdiv">
+            <h2>7. Anything That Looks Like an Advertisement</h2>
                 <p>Selective attention is very powerful, and Web users have learned to stop paying attention to
                 any ads that get in the way of their goal-driven navigation. (The main
                 exception being 🌍<a href="https://www.nngroup.com/articles/will-plain-text-ads-continue-to-rule/">text-only search-engine ads</a>)<br> Unfortunately, users also <a href="https://www.nngroup.com/articles/fancy-formatting-looks-like-an-ad/">ignore legitimate design elements that look like</a> prevalent forms of advertising. After all, when you <i>ignore </i>something, you don't study it in detail to find out what it is. Therefore,
@@ -115,9 +115,9 @@
                 animation avoidance  makes users ignore areas with blinking or flashing text or other
                 aggressive animations pop-up purges  mean that users close pop-up windoids before they have even fully rendered;
                 sometimes with great viciousness (a sort of getting-back-at-GeoCities triumph).</p>
-        </li>
-        <li>
-            <h2>Violating Design Conventions</h2>
+        </div>
+        <div class="listdiv">
+            <h2>8. Violating Design Conventions</h2>
                 <p>Consistency is one of the most
                 powerful usability principles: when things always behave the same, users don't
                 have to worry about what will happen. Instead, they <i>know </i>what
@@ -129,9 +129,9 @@
                 apple, it will turn into a tomato and jump a mile into the sky. Jakob's
                 Law of the Web User Experience states that &quot;users spend most of their time on <i>other </i>websites.&quot; This means that they form their expectations for your site based on what's commonly done on most other sites. If you deviate, your site will be harder to use and
                 users will leave.</p>
-        </li>
-        <li>
-            <h2>Opening New Browser Windows</h2>
+        </div>
+        <div class="listdiv">
+            <h2>9. Opening New Browser Windows</h2>
                 <p>Opening up new browser windows is like a vacuum cleaner sales person who starts a visit
                 by emptying an ash tray on the customer's carpet.<br> Don't pollute my screen with
                 any more windows, thanks (particularly since current operating systems have
@@ -149,9 +149,9 @@
                 the destination to appear in a new page, they can use their browser's
                 &quot;open in new window&quot; command — assuming, of course, that the link is
                 not a piece of code that interferes with the browser’s standard behavior.</p>
-        </li>
-        <li>
-            <h2>Not Answering Users' Questions</h2>
+        </div>
+        <div class="listdiv">
+            <h2>10. Not Answering Users' Questions</h2>
                 <p>Users are highly goal-driven on the Web. They visit sites because there's something
                 they want to accomplish — maybe even buy your product. <br>The ultimate failure of
                 a website is to fail to provide the information users are looking for. Sometimes
@@ -169,7 +169,7 @@
                 of users asking <i>&quot;Where's the price?&quot;</i> while tearing
                 their hair out. Even B2C sites often make the associated mistake of forgetting prices in product
                 lists, such as 🌍<a href="http://www.nngroup.com/reports/ecommerce-ux-homepages-and-category-pages/">category pages</a> or <a href="http://www.nngroup.com/reports/ecommerce-ux-search-including-faceted-search/">search results</span></a>. Knowing the price is key in both situations; it lets users differentiate among products and click through to the most relevant ones.</p>
-        </li>
+        </div>
     </ol>
     <footer>Wall of text</footer>
     </div>
