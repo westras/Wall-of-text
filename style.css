@@ -57,7 +57,8 @@ h2 {
   border-radius:1rem;
   box-shadow:1px 1px 5px black;
  text-align:center;
-  background: #0004;
+  background: linear-gradient(90deg, #c0f3f3 0%, #aee1f9 100%);
+  font-weight: 700;
 }
 
 .listdiv{
@@ -68,6 +69,7 @@ h2 {
   background: linear-gradient(90deg, #0001 0%, #0003 100%);
   border-radius:1rem;
   box-shadow:1px 1px 5px black;
+  margin-bottom: 1rem;
 }
 
 
@@ -85,6 +87,8 @@ footer{
   background: linear-gradient(90deg, #c0f3f3 0%, #aee1f9 100%);
   font-size:1.2rem;
   color: black;
+  font-size: 2rem;
+  font-weight: 600;
   height: 4.5rem;
   margin-bottom:0rem;
   border-radius:0.3rem;
