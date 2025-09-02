@@ -1,21 +1,21 @@
 .header {
   text-align: center;
   background: linear-gradient(90deg, #c0f3f3 0%, #aee1f9 100%);
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   box-shadow: 0 2px 8px;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
   border-radius: 1rem;
 }
-.firsttext{
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 1.5rem;
-  padding: 1rem;
-  background: #0001;
-  border-radius:1rem;
-  box-shadow:1px 1px 5px black;
+
+.p1{
+text-align: center;
+margin: 1.5rem;
+padding: 1rem;
+background: linear-gradient(90deg, #0001 0%, #0003 100%);
+border-radius: 1rem;
+box-shadow: 1px 1px 5px black;
 }
 
 .main-content {
@@ -32,7 +32,7 @@
 }
 
 .ul {
-  background: #c0f3f3;
+  background: linear-gradient(90deg, #c0f3f3 0%, #aee1f9 100%);
   border-radius: 0.5rem;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -59,12 +59,13 @@ h2 {
  text-align:center;
   background: #0004
 }
+
 .listdiv{
   margin-bottom: 0.5rem;
   line-height: 1.5;
   justify-content:center;
   padding:1rem;
-  background: #0001;
+  background: linear-gradient(90deg, #0001 0%, #0003 100%);
   border-radius:1rem;
   box-shadow:1px 1px 5px black;
 }
@@ -81,7 +82,7 @@ footer{
   display:flex;
   justify-content:center;
   align-items:center;
-  background: #c0f3f3;
+  background: linear-gradient(90deg, #c0f3f3 0%, #aee1f9 100%);
   font-size:1.2rem;
   color: black;
   height: 4.5rem;
