@@ -29,6 +29,9 @@ box-shadow: 1px 1px 5px black;
 
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .ul {
@@ -65,7 +68,7 @@ h2 {
   margin-bottom: 0.5rem;
   line-height: 1.5;
   justify-content:center;
-  padding:1rem;
+  padding:1.5rem;
   background: linear-gradient(90deg, #0001 0%, #0003 100%);
   border-radius:1rem;
   box-shadow:1px 1px 5px black;
